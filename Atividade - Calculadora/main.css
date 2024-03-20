@@ -1,0 +1,9 @@
+@charset "UTF-8";
+body{
+     background-color: rgb(165, 37, 11) ;
+}
+.calculadora{
+    position: absolute;
+    background-color: black;
+    top: 50%;
+}

@@ -1,0 +1,3 @@
+<li> = Lista
+<ul> = Lista com Bolinha 
+<ol> = Lista com Numeração

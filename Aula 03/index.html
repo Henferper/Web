@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="padrao.css">
+</head>
+<body>
+
+    <header>
+        CALCULADORA IMC
+    </header>
+    <main>
+        <div class="calculadora">
+            <p>
+                <label for="iPeso">Peso (kg)</label>            
+                <input type="text" name="iPeso" id="iPeso" onchange="calcular()">
+            </p>
+            <p>
+                <label for="iAltura">Altura (m)</label>
+                <input type="text" name="iAltura" id="iAltura" onchange="calcular()">
+            </p>
+            <span id="resultado"></span>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; 2024
+    </footer>
+
+    <script>
+
+        function calcular () {
+
+            var peso = document.getElementById("iPeso").value
+            var altura = document.getElementById("iAltura").value
+            var imc = peso / (altura * altura)
+            var resultado = ""
+            if (imc < 18.5) {
+                resultado = "Abaixo do Peso"
+            } else if (imc < 25) {
+                resultado = "Peso Ideal"
+            } else if (imc < 30) {
+                resultado = "Sobrepeso"
+            } else if (imc < 35) {
+                resultado = "Obesidade I"
+            } else if (imc < 40) {
+                resultado = "Obesidade II"
+            } else {
+                resultado = "Obesidade III"
+            }
+            document.getElementById("resultado").innerText = resultado
+        }
+
+    </script>
+    
+</body>
+</html>

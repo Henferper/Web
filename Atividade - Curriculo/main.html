@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5f00a3;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Adicionado para posicionamento relativo */
+        }
+        .profile-img {
+            position: absolute; /* Posiciona absolutamente em relação ao .container */
+            top: 25px; /* Ajusta a posição vertical conforme necessário */
+            right: 60px; /* Ajusta a posição horizontal conforme necessário */
+            width:200px;
+            height: 200px;
+            border-radius: 50%; /* Define a forma como um círculo */
+            overflow: hidden; /* Garante que a imagem não ultrapasse os limites do círculo */
+        }
+        .profile-img img {
+            width: 100%; /* Garante que a imagem ocupe todo o espaço do círculo */
+            height: auto;
+        }
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-header {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 10px;
+        }
+        .skills {
+            margin-top: 20px;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            display: inline-block;
+            background-color: #f2f2f2;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Henrique Fernandes Pereira</h1>
+        <p>Júlio Rusconi, 235, Itanguá II - Sorocaba, SP</p>
+        <p>Telefone: (15) 99618-9967</p>
+        <p>E-mail: Henriquealcalde@hotmail.com</p>
+        
+        <!-- Adicionando a imagem de perfil -->
+        <div class="profile-img">
+            <img src="WhatsApp Image 2024-02-14 at 14.27.40.jpeg" alt="Imagem de Perfil">
+        </div>
+        
+        <div class="section">
+            <h2 class="section-header">Escolaridade</h2>
+            <div class="education-item">
+                <h3>Ensino Médio - Centro Educacional SESI 123</h3>
+                <p>Concluído (2020)</p>
+                <h3>Técnico de Mecatrônica</h3>
+                <p>Concluído (2019-2020)</p>
+                <h3>Eletricista de Manutenção Eletroeletrônica</h3>
+                <p>Concluído (2021-2022)</p>
+                <h3>Técnico de Química</h3>
+                <p>Concluído (2021-2022)</p>
+                <h3>Curso Avançado em Excel</h3>
+                <p>Concluído (2023)</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-header">Experiência</h2>
+            <div class="experience-item">
+                <h3>TOYOTA do Brasil Ldta</h3>
+                <p>Jovem Aprendiz Eletricista de Manutenção - 18/02/2021 até 13/12/2022</p>
+                <h3>SALE Automação Industrial Ltda</h3>
+                <p>Auxiliar de Montador de Painéis Elétricos - 22/02/2023 até 04/08/2023</p>
+                <ul>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section skills">
+            <h2 class="section-header">Habilidades</h2>
+            <ul>
+                <li>Automação Industrial</li>
+                <li>CLP</li>
+                <li>Eletrônica</li>
+                <li>SolidWorks</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

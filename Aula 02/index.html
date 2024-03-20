@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - HTML Semântico</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        .cabecalho {
+            width: 100%;
+            height: 120px;
+            background-color: #41A628;
+            text-align: center;
+        }
+        .menu {
+            width: 220px;
+            height: calc(100vh - 160px);
+            background-color: #C7EA9B;
+            text-align: center;
+            float: left;
+        }
+        .conteudo {
+            width: calc(100%-220px);
+            height: calc(100vh - 160px);
+            bottom: 40px;
+            background-color: #C2FAB9;
+            text-align: center;
+        }
+        .rodape {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            height: 40px;
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="cabecalho">HEADER</div>
+    <div class="menu">NAVBAR</div>
+    <div class="conteudo">MAIN</div>
+    <div class="rodape">FOOTER</div>
+</body>
+</html>

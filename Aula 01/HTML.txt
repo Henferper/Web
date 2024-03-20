@@ -1,0 +1,52 @@
+*********************
+*DESENVOLVIMENTO WEB*
+*********************
+______________________________
+HTML - Markup-language
+HTML5 - Mais semântico
+
+NORMA REGULAMENTADORA - W3C - Formas de programar para outros interpretarem
+
+PROTOCOLO DE COMUNICAÇÃO
+http - Hyper-text transfer protocol
+
+FIFO - LIFO
+PEPS - UEPS
+
+HTML ESTÁTICO: Dados não mudam
+HTML DINÂMICO Dados mudam
+
+FRAMEWORK - Conjunto de bibliotecas para o desenvolvimento
+Obs: Java e C não importam WEB
+______________________________
+
+Quando trabalha com WEB OBRIGATORIAMENTE precisa de Servidor e o Clinte
+
+SERVER-SIDE (BACK END)
+PHP
+PYTHON
+JS
+ASP
+RUBY
+
+CLIENT-SIDE (FRONT END)
+HTML
+CSS
+JS
+______________________________
+
+REPOSITÓRIO 
+
+CENTRALIZADO
+
+
+DISTRIBUIDO
+
+PUSH - Empurrar
+PULL - Puxar
+COMMIT - Comunicação
+
+APPS
+C3 SCHOOLS
+
+
