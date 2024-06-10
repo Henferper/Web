@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-color: rgb(28, 28, 28);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.container1{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.container2{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.container1 textarea{
+    width: 300px;
+    height: 220px;
+    background-color: rgb(72, 72, 72);
+    border: none;
+    resize: none;
+}
+.container2 textarea, iframe{
+    width: 300px;
+    height: 220px;
+    background-color: rgb(72, 72, 72);
+    border: none;
+    resize: none;
+}
+.container1 h2{
+    color: aliceblue;
+}
+.container2 h2{
+    color: aliceblue;
+}
+::placeholder {
+    position: absolute;
+    top: 10px; 
+    left: 10px;
+}

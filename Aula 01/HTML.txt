@@ -20,7 +20,7 @@ FRAMEWORK - Conjunto de bibliotecas para o desenvolvimento
 Obs: Java e C não importam WEB
 ______________________________
 
-Quando trabalha com WEB OBRIGATORIAMENTE precisa de Servidor e o Clinte
+Quando trabalha com WEB OBRIGATORIAMENTE precisa de Servidor e o Cliente
 
 SERVER-SIDE (BACK END)
 PHP
@@ -49,4 +49,6 @@ COMMIT - Comunicação
 APPS
 C3 SCHOOLS
 
+UNIVERSE.IO
+COLOR HUNT
 
